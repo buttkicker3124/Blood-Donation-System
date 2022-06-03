@@ -42,6 +42,7 @@
                                                $availability = $_POST['availability']; 
                                             //    $c_password =  $_POST['c_password'] ; 
                                                 
+                                            
                                
                                                // db conn
                                                $conn = new mysqli('localhost' , 'root' , '', 'blood-donation');

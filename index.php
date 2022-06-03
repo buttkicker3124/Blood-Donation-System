@@ -12,7 +12,7 @@
 <body>
       
           <?php
-             include "navbar.php"
+             include "navbar.php";
           ?>
             <!-- availableblood----------------------------------------------------- -->
             <section class="available_blood" id="available_blood">
