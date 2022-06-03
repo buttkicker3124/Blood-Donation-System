@@ -1,0 +1,464 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: darkorange;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar {
+  height: 60px;
+  width: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.logo, .btn {
+  height: 65%;
+  text-align: center;
+  width: 10%;
+  font-size: 21px;
+  font-weight: 900;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-btn {
+  margin: 0px 5px;
+  color: #fff;
+  background-color: #bc0000;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.login-btn:hover {
+  background-color: #7c0000;
+}
+
+.navlists {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 70%;
+  list-style: none;
+  padding: 10px 0px;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.navlinks {
+  padding: 2px 20px;
+  margin: 0px 5px;
+}
+
+.links {
+  color: #404040;
+  font-weight: 500;
+  font-size: 20px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.links:hover {
+  color: #2c2c2c;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 2px solid #2c2c2c;
+}
+
+.available_blood {
+  height: 80vh;
+  background-color: red;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url("./img/bld_donation.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./img/bld_donation.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #d4d4d4;
+}
+
+.table {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.txt-dece {
+  background-color: #7474ff;
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+
+table {
+  color: #000;
+  width: 90%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  background-color: #ff3939;
+}
+
+td, th {
+  border: 1px solid #c8c8c8;
+  text-align: left;
+  padding: 15px;
+}
+
+tr {
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: #dddddd;
+}
+
+.landing {
+  height: 80vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("./img/bld.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("./img/bld.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: red;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #d4d4d4;
+}
+
+.heading {
+  width: 80%;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Anton', sans-serif;
+  padding: 10px 5px;
+}
+
+.greet {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 900;
+  width: 100%;
+  padding: 10px 0px;
+  font-family: 'Anton', sans-serif;
+}
+
+.landing h3 {
+  font-size: 20px;
+  font-weight: 400;
+  width: 80%;
+  padding: 10px 0px;
+  font-family: 'Anton', sans-serif;
+}
+
+.user {
+  width: 100%;
+  height: 35vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 21px;
+  font-weight: lighter;
+}
+
+.child {
+  width: 40%;
+  height: 75%;
+  margin: 0px 10px;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: #000;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hospital {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.5))), url("./img/doc.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("./img/doc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hospital:hover {
+  -webkit-transform: scale(1.035);
+          transform: scale(1.035);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.reciever {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.5))), url("./img/reciever.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("./img/reciever.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+.reciever:hover {
+  -webkit-transform: scale(1.035);
+          transform: scale(1.035);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.child a {
+  text-decoration: none;
+  color: #fff;
+  padding: 300px 300px;
+}
+
+.footer {
+  height: 10vh;
+  min-width: 100vw;
+  font-weight: 500;
+}
+
+.foot-span {
+  width: 100%;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.foot-a {
+  padding: 2px 20px;
+  text-decoration: none;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.contact {
+  width: 100%;
+  padding: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.socials, .phn {
+  width: 40%;
+  height: 100%;
+  text-align: center;
+}
+
+.links-foot {
+  margin: 0px 10px;
+  font-size: 19px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #000;
+}
+
+.form-container-hospital {
+  height: 80vh;
+  width: 100vw;
+  background-color: red;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("./img/doc.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("./img/doc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.form-container-receiver {
+  height: 80vh;
+  width: 100vw;
+  background-color: red;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.7))), url("./img/reciever.jpg");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("./img/reciever.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.white {
+  color: #fff;
+}
+
+.anchor_btn {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.danger {
+  background-color: red;
+  padding: 5px 10px;
+  color: white;
+  border: 1px soild #fff;
+  border-radius: 50px;
+}
+
+.green {
+  background-color: green;
+  padding: 5px 10px;
+  color: white;
+  border: 1px soild #fff;
+  border-radius: 50px;
+}
+
+form {
+  height: 80%;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem;
+}
+
+form input {
+  width: 50%;
+  padding: 20px 5px;
+  margin: 10px 0px;
+  border: none;
+  background-color: #bc75ff;
+}
+
+.submit {
+  padding: 10px 10px;
+  width: 20%;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+::-ms-input-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
